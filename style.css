@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background: linear-gradient(135deg, #050d68, #0712ee, #bc04b6, #83a300);
+  /* width: 100%; */
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header nav ul li button {
+  padding: 10px;
+  border-radius: 10px;
+  background: transparent;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  color: white;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  position: relative;
+}
+header nav ul li button:hover {
+  background-color: white;
+  color: black;
+}
+#click,
+label {
+  display: none;
+}
+main{
+  height: fit-content;
+}
+main .plate1 {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+main .plate1 .clmn1 figure img {
+  padding: 20px;
+  border-radius: 30px;
+}
+main .plate1 .clmn2 {
+  margin-top: 40px;
+}
+main .plate1 .clmn2 h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+main .plate1 .clmn2 p {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+main .plate1 .clmn2 button {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 25px;
+  background: transparent;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  color: white;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+main .plate1 .clmn2 button:hover {
+  background-color: white;
+  color: black;
+}
+main .plate2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  position: relative;
+}
+main .plate2 .b1 {
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+}
+main .plate2 .b1 button {
+  padding: 10px;
+  background: transparent;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+main .plate2 .b2 {
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+}
+main .plate2 .b2 button {
+  padding: 10px;
+  background: transparent;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+main .plate2 .b3 {
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+}
+main .plate2 .b3 button {
+  padding: 10px;
+  background: transparent;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+main .plate3 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  position: relative;
+}
+main .plate3 .b1 {
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+}
+main .plate3 .b1 button {
+  padding: 10px;
+  background: transparent;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+main .plate3 .b2 {
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+}
+main .plate3 .b2 button {
+  padding: 10px;
+  background: transparent;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+main .plate3 .b3 {
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+}
+main .plate3 .b3 button {
+  padding: 10px;
+  background: transparent;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+footer {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  color: white;
+  background: transparent;
+  background-color: rgba(128, 128, 128, 0.37);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  text-align: center;
+}
+footer .l1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 2rem;
+  padding: 20px;
+  position: relative;
+}
+@media (max-width: 768px) {
+  /* Header */
+  label {
+    display: flex;
+  }
+  nav {
+    position: absolute;
+    padding-left: 40%;
+    top: 110%;
+    left: -100%;
+    transition: all 0.5s ease;
+    z-index: 3;
+  }
+  nav ul li button {
+    background-color: white;
+    color: black;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  #click:checked + label + nav {
+    left: 5%;
+  }
+
+  .plate1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 300px;
+  }
+  .plate1 .clmn1 figure img {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .plate2 {
+    flex-direction: column;
+    position: absolute;
+    top: 1050px;
+  }
+
+  main .plate3 {
+    flex-direction: column;
+    position: absolute;
+    top: 1600px;
+  }
+
+  footer {
+    position: absolute;
+    top: 2130px;
+  }
+  footer .l1 {
+    flex-direction: column;
+  }
+}
